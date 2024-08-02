@@ -20,6 +20,7 @@ const UploadPage = () => {
           sources: ["local"],
           multiple: false,
           maxFiles: 5,
+          styles: {},
         }}
         onSuccess={(result, widget) => {
           if (result.event !== "success") return;
